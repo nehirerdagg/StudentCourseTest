@@ -1,0 +1,70 @@
+﻿@using KUSYS.Models
+<head>
+    <link rel="stylesheet" href="/css/style.css" />
+</head>@{
+    ViewData["Title"] = "Anasayfa";
+  
+}
+@model List<StudentCourse>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container mt-3">
+  <div class="table-responsive">
+    @using (Html.BeginForm("CreateStudentCourse", "Student", FormMethod.Post))
+            {
+                <input hidden name="Id" value="@ViewBag.StudentID">
+                   <button type="submit" class="btn btn-success" align="left">Ders Ekle</button>
+            }
+            <div class="row"></div>
+    <h2>Ders Listesi</h2>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Ders Adı</th>
+          <th>Ders Kodu</th>
+      
+        </tr>
+      </thead>
+      <tbody>
+    
+           @foreach(var item in Model ){
+        <tr>
+            <td>@item.Course.CourseName</td>
+            <td>@item.Course.CourseId</td>                    
+            <td></td>      
+         
+        </tr>
+        }     
+        
+      </tbody>
+    </table>
+  </div>
+</div>
+</body>
+</html>
+
+<style>
+    .table-responsive{
+        border: 3px solid grey;
+        border-radius: 6px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        padding: 20px;
+        background-color:white;
+    }
+    thead{
+        background-color:#E2E2E2;
+    }
+    body{    
+        opacity: 0.8;
+        background-color:aliceblue;
+    }
+</style>

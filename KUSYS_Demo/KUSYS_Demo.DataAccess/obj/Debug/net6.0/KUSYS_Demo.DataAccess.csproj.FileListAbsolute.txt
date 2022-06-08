@@ -1,0 +1,17 @@
+C:\Users\Fouras\Desktop\Çalışmalar\KUSYS_Demo\KUSYS_Demo.DataAccess\bin\Debug\net6.0\KUSYS_Demo.DataAccess.deps.json
+C:\Users\Fouras\Desktop\Çalışmalar\KUSYS_Demo\KUSYS_Demo.DataAccess\bin\Debug\net6.0\KUSYS_Demo.DataAccess.runtimeconfig.json
+C:\Users\Fouras\Desktop\Çalışmalar\KUSYS_Demo\KUSYS_Demo.DataAccess\bin\Debug\net6.0\KUSYS_Demo.DataAccess.dll
+C:\Users\Fouras\Desktop\Çalışmalar\KUSYS_Demo\KUSYS_Demo.DataAccess\bin\Debug\net6.0\KUSYS_Demo.DataAccess.pdb
+C:\Users\Fouras\Desktop\Çalışmalar\KUSYS_Demo\KUSYS_Demo.DataAccess\bin\Debug\net6.0\KUSYS_Demo.Entities.dll
+C:\Users\Fouras\Desktop\Çalışmalar\KUSYS_Demo\KUSYS_Demo.DataAccess\bin\Debug\net6.0\KUSYS_Demo.Entities.pdb
+C:\Users\Fouras\Desktop\Çalışmalar\KUSYS_Demo\KUSYS_Demo.DataAccess\obj\Debug\net6.0\KUSYS_Demo.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Fouras\Desktop\Çalışmalar\KUSYS_Demo\KUSYS_Demo.DataAccess\obj\Debug\net6.0\KUSYS_Demo.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fouras\Desktop\Çalışmalar\KUSYS_Demo\KUSYS_Demo.DataAccess\obj\Debug\net6.0\KUSYS_Demo.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Fouras\Desktop\Çalışmalar\KUSYS_Demo\KUSYS_Demo.DataAccess\obj\Debug\net6.0\KUSYS_Demo.DataAccess.AssemblyInfo.cs
+C:\Users\Fouras\Desktop\Çalışmalar\KUSYS_Demo\KUSYS_Demo.DataAccess\obj\Debug\net6.0\KUSYS_Demo.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Fouras\Desktop\Çalışmalar\KUSYS_Demo\KUSYS_Demo.DataAccess\obj\Debug\net6.0\KUSYS_Demo.DataAccess.csproj.CopyComplete
+C:\Users\Fouras\Desktop\Çalışmalar\KUSYS_Demo\KUSYS_Demo.DataAccess\obj\Debug\net6.0\KUSYS_Demo.DataAccess.dll
+C:\Users\Fouras\Desktop\Çalışmalar\KUSYS_Demo\KUSYS_Demo.DataAccess\obj\Debug\net6.0\refint\KUSYS_Demo.DataAccess.dll
+C:\Users\Fouras\Desktop\Çalışmalar\KUSYS_Demo\KUSYS_Demo.DataAccess\obj\Debug\net6.0\KUSYS_Demo.DataAccess.pdb
+C:\Users\Fouras\Desktop\Çalışmalar\KUSYS_Demo\KUSYS_Demo.DataAccess\obj\Debug\net6.0\KUSYS_Demo.DataAccess.genruntimeconfig.cache
+C:\Users\Fouras\Desktop\Çalışmalar\KUSYS_Demo\KUSYS_Demo.DataAccess\obj\Debug\net6.0\ref\KUSYS_Demo.DataAccess.dll

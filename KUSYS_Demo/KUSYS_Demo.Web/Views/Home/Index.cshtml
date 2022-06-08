@@ -1,0 +1,74 @@
+﻿@using KUSYS.Models
+<head>
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+@section scripts 
+{ 
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script> 
+    <script src="~/Scripts/bootstrap.js"></script> 
+    <script src="~/Scripts/bootstrap.min.js"></script> 
+ 
+} 
+@{
+    ViewData["Title"] = "Öğrenci Listesi";
+
+}
+@*Öğrenci modeli*@
+
+@model List<Student>
+
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  
+@*Öğrencilerin listelendiği tablo*@
+
+  <div class="table-responsive">
+    <a href="/Student/CreateStudent" class="btn btn-success">Öğrenci Ekle</a>
+    <div class="row"></div>
+    <h2>Öğrenci Listesi</h2>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Ad</th>
+          <th>Soyad</th>
+          <th>Sil</th>
+          <th>Güncelle</th>
+          <th>Görüntüle</th>
+          <th>Dersler</th>
+        </tr>
+      </thead>
+      <tbody>
+
+   @*for döngüsü ile öğrenciler listeleniyor*@
+    @foreach(var item in Model){
+        <tr>
+            <td>@item.FirstName</td>
+            <td>@item.LastName</td>            
+            <td><a href="/Student/DeleteStudent/@item.Id" class="btn btn-warning">Sil</a></td>      
+            <td><a href="/Student/UpdateStudent/@item.Id" class="btn btn-warning">Güncelle</a></td>      
+           <td><a class="btn btn-primary" href="/Student/ShowStudent/@item.Id">Görüntüle</a></td>      
+            <td><a href="/Student/StudentCourse/@item.Id" class="btn btn-primary">Dersler</a></td>  
+
+
+         
+        </tr>
+        }     
+                
+
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>
+
+

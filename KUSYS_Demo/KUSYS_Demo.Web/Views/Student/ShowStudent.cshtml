@@ -1,0 +1,54 @@
+﻿@using KUSYS.Models
+<head>
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+@{
+    ViewData["Title"] = "Öğrenci Detay";
+}
+@model Student
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Öğrenci Detay</h2>
+  <form method="post" class="form-horizontal" action="/Student/Editing_UpdateStudent/id">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="fname">Ad:</label>
+      <div class="col-sm-10">
+        <input type="text" readonly class="form-control" value="@Model.FirstName" id="fname" placeholder="Ad" name="FirstName">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="lname">Soyad:</label>
+      <div class="col-sm-10">          
+        <input type="text" readonly class="form-control" value="@Model.LastName" id="lname" placeholder="Soyad" name="LastName">
+      </div>
+    </div> 
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="birth">Doğum Tarihi:</label>
+      <div class="col-sm-10">     
+          @Html.TextBoxFor(m => m.BirthDate, "{0:dd/MM/yyyy}", new{@readonly = true, @class="form-control"})
+        @*<input type="date" class="form-control" value="@Model.BirthDate" id="birth" placeholder="Soyad" name="BirthDate">*@
+      </div>
+    </div> 
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <a href="/Student/StudentCourse/@Model.Id" class="btn btn-primary">Alınan Dersler</a>
+      </div>
+    </div>
+    @Html.HiddenFor(m => m.Id)
+  </form>
+</div>
+
+
+</body>
+</html>

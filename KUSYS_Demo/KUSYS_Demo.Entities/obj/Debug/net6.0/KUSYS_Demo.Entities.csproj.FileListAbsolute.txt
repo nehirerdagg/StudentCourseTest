@@ -1,0 +1,14 @@
+C:\Users\Fouras\Desktop\Çalışmalar\KUSYS_Demo\KUSYS_Demo.Entities\bin\Debug\net6.0\KUSYS_Demo.Entities.deps.json
+C:\Users\Fouras\Desktop\Çalışmalar\KUSYS_Demo\KUSYS_Demo.Entities\bin\Debug\net6.0\KUSYS_Demo.Entities.runtimeconfig.json
+C:\Users\Fouras\Desktop\Çalışmalar\KUSYS_Demo\KUSYS_Demo.Entities\bin\Debug\net6.0\KUSYS_Demo.Entities.dll
+C:\Users\Fouras\Desktop\Çalışmalar\KUSYS_Demo\KUSYS_Demo.Entities\bin\Debug\net6.0\KUSYS_Demo.Entities.pdb
+C:\Users\Fouras\Desktop\Çalışmalar\KUSYS_Demo\KUSYS_Demo.Entities\obj\Debug\net6.0\KUSYS_Demo.Entities.csproj.AssemblyReference.cache
+C:\Users\Fouras\Desktop\Çalışmalar\KUSYS_Demo\KUSYS_Demo.Entities\obj\Debug\net6.0\KUSYS_Demo.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fouras\Desktop\Çalışmalar\KUSYS_Demo\KUSYS_Demo.Entities\obj\Debug\net6.0\KUSYS_Demo.Entities.AssemblyInfoInputs.cache
+C:\Users\Fouras\Desktop\Çalışmalar\KUSYS_Demo\KUSYS_Demo.Entities\obj\Debug\net6.0\KUSYS_Demo.Entities.AssemblyInfo.cs
+C:\Users\Fouras\Desktop\Çalışmalar\KUSYS_Demo\KUSYS_Demo.Entities\obj\Debug\net6.0\KUSYS_Demo.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Fouras\Desktop\Çalışmalar\KUSYS_Demo\KUSYS_Demo.Entities\obj\Debug\net6.0\KUSYS_Demo.Entities.dll
+C:\Users\Fouras\Desktop\Çalışmalar\KUSYS_Demo\KUSYS_Demo.Entities\obj\Debug\net6.0\refint\KUSYS_Demo.Entities.dll
+C:\Users\Fouras\Desktop\Çalışmalar\KUSYS_Demo\KUSYS_Demo.Entities\obj\Debug\net6.0\KUSYS_Demo.Entities.pdb
+C:\Users\Fouras\Desktop\Çalışmalar\KUSYS_Demo\KUSYS_Demo.Entities\obj\Debug\net6.0\KUSYS_Demo.Entities.genruntimeconfig.cache
+C:\Users\Fouras\Desktop\Çalışmalar\KUSYS_Demo\KUSYS_Demo.Entities\obj\Debug\net6.0\ref\KUSYS_Demo.Entities.dll
